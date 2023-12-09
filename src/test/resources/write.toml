@@ -1,0 +1,21 @@
+string1 = 'text'
+string2 = "text"
+integer = 12345
+float1 = -1.2e-9
+float2 = -54E-2
+
+[table]
+    [subtable]
+        key = 'value'
+
+[display]
+    depth = 24
+    [size]
+        width = 1280
+        height = 720
+
+title = 'TOML Example'
+
+[servers]
+    [beta]
+        ip = '10.0.0.2'
